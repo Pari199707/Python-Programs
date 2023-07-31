@@ -30,7 +30,6 @@ if Fruits.APPLE is Fruits.GRAPES:
 else:
     print("Both are different ")
 
-# Comparison using "!="
 if Fruits.APPLE != Fruits.GRAPES:
     print("Both are different")
 else:
