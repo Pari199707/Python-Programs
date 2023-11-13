@@ -7,11 +7,17 @@ class Pen:
      
     def ink_full(self):
         full = input ("Enter True or False:\n")
-        if  full:
+        if  full == True:
             print(self.color,"Ink filled")
-        else:
+        elif full == False:
             print(self.color,"need to be filled")
+        else:
+            print("Please enter correct value")
 
 pen1 = Pen ("Red")
 pen1.write()
 pen1.ink_full()
+
+pen2 = Pen ("Black")
+pen2.write()
+pen2.ink_full()
